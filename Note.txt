@@ -1,0 +1,38 @@
+***** NOTE 1 *****
+
+PascalNamingConvention  -> Classes
+camelNamingConvention  -> Methods
+
+public class ClassName {
+    public void functionName() {
+        ...
+    }
+}
+
+***** NOTE 2 *****
+
+Source Code  ---->  Java Compiler  ---->  Byte Code
+
+*.java                                    *.class
+                                         Plateform Independent
+				(Run on any OS having Java Runtime Environment)
+
+
+Byte Code  ---->  Java Virtual Machine(JVM)  ---->  Native Code
+
+*.class						   Win, Mac,...
+
+C# and Python have same architecture
+
+***** NOTE 3 *****
+
+Intresting Facts:
+	- Java was developed by James Gosling in 1995
+	- 1995 at Sun Microsystems which was later acquired by Oracle in 2010.
+	- It was originally called oke after an oak tree that stood outside Gosling's office
+	  later it was renamed to green and was finally renamed to Java inspired by Java coffee
+	- 4 different editions of java building different kinds of application
+		o Standard Edition(SE)		--> this is core java platform
+		o Enterprise Edition(EE)	--> this is used for building very large-scale and distributed system
+		o Micro Edition(ME)		--> this is a subset of SE designed for mobile devices
+		o Java Card			--> this is used in smart cards
